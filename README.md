@@ -15,3 +15,8 @@ Edge cases and possible solutions:
     - allow the user to adjust the bounding boxes produced by google vision api and save as a profile for specific document
     - allow the user to pretrain google vision api for specific form (most likely not a good solution)
     - require user to create a form that follows certain rules to make sure it works well for automation
+
+
+React
+react Native
+Expo
