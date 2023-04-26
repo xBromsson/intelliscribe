@@ -10,6 +10,7 @@ Features:
 Edge cases and possible solutions:
 - problem: there are a vast variety of forms. google vision api can handle alot but for the ones it can't
   - possible solutions:
+    - make a form for specific use case. provide form as download in the application.
     - allow the user to auto generate a google vision friendly form from target webform fields
     - user friendly form builder that enables users to build custom printable form for use with google vision
     - allow the user to adjust the bounding boxes produced by google vision api and save as a profile for specific document
