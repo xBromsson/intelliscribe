@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Form Autofill",
+    "version": "1.0",
+    "description": "Automatically fills out web forms using data from a dummy database.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }
+  
+  
